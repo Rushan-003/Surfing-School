@@ -165,3 +165,131 @@ a {
     margin-top: 150px;
     margin-bottom: 150px;
 }
+
+.section__1-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.information__block {
+
+}
+
+.information__block-inner {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.information__block-title {
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+.information__block-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.information__block-list-elem {
+    padding: 10px 20px;
+    border: 1px solid #0A507A;
+    border-radius: 30px;
+    color: #0A507A;
+
+    font-weight: 700;
+    font-size: 26px;
+
+}
+
+.information__block-left {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    max-width: 560px;
+}
+
+.information-picture {
+    max-width: 100%;
+
+}
+
+.information__block-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information-button {
+    display: inline;
+    border: 1px solid #fff;
+    font-weight: 800;
+    font-size: 32px;
+    background: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+
+    position: relative;
+    bottom: 100px;
+    right: 68px;
+}
+
+.information__block-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+
+
+.activities {
+
+}
+
+
+.activities__content {
+    display: flex;
+}
+
+.activities__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.activities__title {
+    font-weight: 800;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.activities__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.activities__list-elem {
+    /* max-width: 344px;
+    max-height: 344px; */
+    border: 1px solid #2B2A29;
+    border-radius: 100%;
+}
+
+.activities__link {
+    background-color: #2B2A29;
+    /* border: 1px solid #2B2A29; */
+    text-transform: uppercase;
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+/* .background-2 {
+    background-size: 100vh 100vh;
+} */
