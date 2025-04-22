@@ -9,6 +9,11 @@ a {
     text-decoration: inherit;
 }
 
+footer {
+    background-color: #2B2A29;
+    color: #fff;
+}
+
 .container {
     margin: 0px 100px;
     /* max-width: 1720px; */
@@ -118,6 +123,7 @@ a {
 .content__news {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     border: 1px solid #fff;
@@ -272,6 +278,14 @@ a {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
+
+.activities__content-elem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .activities__list-elem {
     /* max-width: 344px;
     max-height: 344px; */
@@ -293,3 +307,67 @@ a {
 /* .background-2 {
     background-size: 100vh 100vh;
 } */
+.feedback__block {
+
+}
+.feedback__block-top {
+
+}
+.feedback__subtitle {
+
+}
+.feedback__title {
+
+}
+.feedback {
+
+}
+
+.feedbacks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+}
+
+.footer {
+    padding: 100px 390px;
+    max-width: 1140px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content {
+    display: flex;
+    gap: 68px;
+    margin-bottom: 60px;
+}
+
+.footert__buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__title {
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.footer__navigation__menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+.footer__content-elem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__content-elem h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
