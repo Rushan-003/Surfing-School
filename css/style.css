@@ -38,6 +38,18 @@ footer {
     font-size: 20px;
 }
 
+.burger__menu {
+    display: none;
+}
+
+.burger__menu-elem {
+    display: block;
+    background-color: #0A507A;
+    width: 30px;
+    height: 5px;
+    margin-bottom: 2px;
+}
+
 .header__left {
     display: flex;
     flex-direction: column;
@@ -262,6 +274,7 @@ footer {
 
 .activities__content {
     display: flex;
+    gap: 100px;
 }
 
 .activities__subtitle {
@@ -276,7 +289,7 @@ footer {
 }
 .activities__list {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);;
 }
 
 .activities__content-elem {
@@ -291,6 +304,8 @@ footer {
     max-height: 344px; */
     border: 1px solid #2B2A29;
     border-radius: 100%;
+    max-width: 344px;
+    aspect-ratio: 1/1
 }
 
 .activities__link {
@@ -311,16 +326,32 @@ footer {
 
 }
 .feedback__block-top {
-
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50%;
 }
+
+.feedback__picture {
+    margin-bottom: 15px;
+}
+
+.feedback__text {
+    margin-bottom: 15px;
+}
+
 .feedback__subtitle {
+    font-weight: 700;
+    font-size: 20px;
 
 }
 .feedback__title {
-
+    font-weight: 800;
+    font-size: 64px;
+    text-transform: uppercase;
 }
-.feedback {
-
+.feedback:nth-child(even) {
+    margin-top: 100px;
 }
 
 .feedbacks {
