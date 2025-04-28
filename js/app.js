@@ -1,0 +1,1 @@
+let button = document.getElementsByClassName("burger__menu")
