@@ -15,8 +15,8 @@ a {
 }
 
 footer {
-    background-color: #2B2A29;
-    color: #fff;
+    /* background-color: #2B2A29; */
+    /* color: #fff; */
 }
 
 .container {
@@ -136,6 +136,7 @@ footer {
 .social_media {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
 .content__news {
@@ -373,8 +374,11 @@ footer {
 }
 
 .footer {
+    background-color: #2B2A29;
+    color: #fff;
+    
     padding: 100px 390px;
-    max-width: 1140px;
+    /* max-width: 1140px; */
 }
 
 .footer__top {
@@ -391,7 +395,8 @@ footer {
 .footert__buttom {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    /* align-items: baseline; */
+    /* align-items: flex-end; */
 }
 
 .footer__title {
@@ -402,6 +407,7 @@ footer {
 
 .footer__navigation__menu-list {
     display: flex;
+    justify-content: space-between;
     gap: 40px;
 }
 
@@ -444,6 +450,8 @@ footer {
 
     .burger__menu {
         display: block;
+        border: 0;
+        background-color: #fff;
     }
 
     .content__news {
@@ -469,6 +477,45 @@ footer {
     }
 
     .activities__content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1800px) {
+    .feedbacks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feedback {
+        max-width: 270px; /* Пересмотр */
+    }
+
+    .feedback:nth-child(even) {
+        margin-top: 0;
+    }
+
+    .feedback__block-top {
+        margin-left: 0;
+    }
+
+    .feedback__picture {
+        width: 270px; /* Пересмотр */
+    }
+    
+}
+
+@media (max-width: 1600px) {
+    .footer {
+        padding: 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer__top {
+        flex-direction: column-reverse;
+    }
+
+    .footert__buttom {
         flex-direction: column;
     }
 }
